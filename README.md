@@ -1,73 +1,53 @@
-# Devfolio
+# 🎨 UI/UX Portfolio Website
 
-Devfolio is a portfolio website built using Next.js, Tailwind CSS, and Framer Motion. It allows developers to showcase their projects, skills, and blogs in a visually appealing manner.
+A modern, clean, and interactive **UI/UX Portfolio Website** built using **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
+This project allows designers to showcase their **case studies, design process, and personal brand** in a beautiful, responsive layout.
 
-## Table of Contents
+> 🚀 Live Demo coming soon...
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Animations](#animations)
-- [Components](#components)
-- [Types](#types)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
-## Features
+## 📖 Table of Contents
 
-- Responsive design using Tailwind CSS
-- Smooth animations with Framer Motion
-- Dark mode support
-- Modular and reusable components
-- Easy to customize
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Folder Structure](#-folder-structure)
+- [Customization](#-customization)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-## Installation
+---
 
-To get started with Devfolio, follow these steps:
+## ✨ Features
 
-1. **Clone the repository:**
+- 🎨 **Modern UI/UX layout** for showcasing design case studies  
+- ⚡ **Built with Next.js** – fast and SEO-friendly  
+- 🌀 **Smooth animations** powered by Framer Motion  
+- 🌙 **Dark and Light mode support**  
+- 🧩 **Modular and reusable components**  
+- 📱 **Fully responsive** across all screen sizes  
+- 🛠️ **Easy to customize** for personal branding  
 
-   ```bash
-   git clone https://github.com/yourusername/devfolio.git
-   cd devfolio
-   ```
+---
 
-2. **Install the dependencies:**
+## 🧠 Tech Stack
 
-   Make sure you have [Node.js](https://nodejs.org/) installed. Then, run the following command to install the necessary packages:
+- **Framework:** [Next.js](https://nextjs.org/)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)  
+- **Icons:** [Lucide React](https://lucide.dev/)  
+- **Deployment:** [Vercel](https://vercel.com/) *(recommended)*  
 
-   ```bash
-   npm install
-   ```
+---
 
-3. **Run the development server:**
+## ⚙️ Installation
 
-   Start the development server to view the project locally:
+Follow these steps to set up the project locally:
 
-   ```bash
-   npm run dev
-   ```
-
-   Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
-4. **Build for production:**
-
-   To create an optimized production build, run:
+1. **Clone the repository**
 
    ```bash
-   npm run build
-   ```
-
-5. **Start the production server:**
-
-   After building the project, you can start the production server with:
-
-   ```bash
-   npm start
-   ```
-
-## Usage
-The Devfolio project is structured to be intuitive and easy to navigate.
-
-By understanding the structure and components of Devfolio, you can easily customize and extend the project to fit your needs.
-
+   git clone https://github.com/Israel-199/UI-UX-portifolio.git
+   cd UI-UX-portifolio
