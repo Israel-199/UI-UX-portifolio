@@ -1,0 +1,61 @@
+"use client";
+
+import { createContext, useContext, useEffect, useState } from "react";
+
+type Theme = "light" | "dark";
+
+interface ThemeContextType {
+  theme: Theme;
+  toggleTheme: () => void;
+  setTheme: (theme: Theme) => void;
+}
+
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+
+export function ThemeProvider({ children }: { children: React.ReactNode }) {
+  const [theme, setThemeState] = useState<Theme>("light");
+  const [mounted, setMounted] = useState(false);
+
+  // Initialize theme (runs only on client)
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme") as Theme | null;
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+    const initialTheme = savedTheme || systemTheme;
+
+    setThemeState(initialTheme);
+    document.documentElement.classList.toggle("dark", initialTheme === "dark");
+    setMounted(true);
+  }, []);
+
+  // Update theme manually
+  const setTheme = (newTheme: Theme) => {
+    setThemeState(newTheme);
+    localStorage.setItem("theme", newTheme);
+    document.documentElement.classList.toggle("dark", newTheme === "dark");
+  };
+
+  // Toggle theme
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+  };
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme, setTheme }}>
+      {/* Avoid hydration mismatch until mounted */}
+      <div suppressHydrationWarning>
+        {mounted ? children : null}
+      </div>
+    </ThemeContext.Provider>
+  );
+}
+
+export function useTheme() {
+  const context = useContext(ThemeContext);
+  if (context === undefined) {
+    throw new Error("useTheme must be used within a ThemeProvider");
+  }
+  return context;
+}
