@@ -1,19 +1,20 @@
-# 🎨 My Portfolio – UX/UI Showcase
+# 🎨 UI/UX Portfolio Website
 
-A modern, clean, and interactive **UX/UI portfolio website** built using **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
-Showcase your **designs, projects, and creative journey** with smooth animations, responsive layouts, and a developer-friendly setup.
+A modern, clean, and interactive **UI/UX Portfolio Website** built using **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
+This project allows designers to showcase their **case studies, design process, and personal brand** in a beautiful, responsive layout.
 
 > 🚀 Live Demo coming soon...
 
 ---
 
-## 📚 Table of Contents
+## 📖 Table of Contents
+
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
+- [Folder Structure](#folder-structure)
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [License](#license)
@@ -22,36 +23,32 @@ Showcase your **designs, projects, and creative journey** with smooth animations
 
 ## 💡 Overview
 
-**My Portfolio** is a visually striking and fully responsive **UX/UI portfolio website** designed to help creatives, designers, and developers showcase their **skills, experiences, and projects** beautifully.  
-Built with **Next.js**, **Tailwind CSS**, and **Framer Motion**, it ensures fast performance and sleek interactivity.
-
-Use it to:
-- Present your **UI/UX designs** and **web development projects**
-- Highlight your **skills, achievements, and personal brand**
-- Impress potential clients or employers with a **clean, modern portfolio site**
+**UI/UX Portfolio Website** is designed for designers and developers to beautifully present their **projects, design process, and creativity**.  
+Built with **Next.js**, **Tailwind CSS**, and **Framer Motion**, it’s fast, SEO-friendly, and fully responsive — perfect for personal branding or showcasing client work.
 
 ---
 
 ## ✨ Features
 
-- 🎨 **Modern Design:** Sleek, minimal, and aesthetic interface  
-- 🌓 **Dark/Light Mode:** Seamlessly switch between themes  
-- ⚡ **Framer Motion Animations:** Smooth, modern animations  
-- 📱 **Fully Responsive:** Optimized for all screen sizes  
-- 🧩 **Reusable Components:** Modular and maintainable code  
-- 💬 **Contact Section:** Integrated contact form  
-- 🧠 **SEO Friendly:** Optimized metadata for visibility  
+- 🎨 **Modern UI/UX layout** for showcasing design case studies  
+- ⚡ **Built with Next.js** – fast and SEO-friendly  
+- 🌀 **Smooth animations** powered by Framer Motion  
+- 🌙 **Dark and Light mode support**  
+- 🧩 **Modular and reusable components**  
+- 📱 **Fully responsive** across all screen sizes  
+- 🛠️ **Easy to customize** for personal branding  
+- 💬 **Contact section** with form integration  
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Tech Stack
 
 - **Framework:** [Next.js](https://nextjs.org/)  
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
 - **Animations:** [Framer Motion](https://www.framer.com/motion/)  
 - **Icons:** [Lucide React](https://lucide.dev/)  
 - **Deployment:** [Vercel](https://vercel.com/) *(recommended)*  
-- **TypeScript (optional)** – For scalable, type-safe development  
+- **Language:** JavaScript / TypeScript (optional)  
 
 ---
 
@@ -59,7 +56,7 @@ Use it to:
 
 Follow these steps to set up the project locally:
 
-```bash
-git clone https://github.com/Israel-199/UI-UX-portifolio.git
-cd UI-UX-portifolio
-npm install
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Israel-199/UI-UX-portifolio.git
+   cd UI-UX-portifolio
