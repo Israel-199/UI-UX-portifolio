@@ -3,6 +3,8 @@
 A modern and elegant **UX/UI portfolio website** built with **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
 Showcase your **designs, projects, and creative journey** with smooth animations, responsive layouts, and a developer-friendly setup.
 
+> 🚀 Live Demo coming soon...
+
 ---
 
 ## 📚 Table of Contents
@@ -47,6 +49,8 @@ Use it to:
 - **Next.js 14** – React framework for server-side rendering & performance  
 - **Tailwind CSS** – Utility-first styling framework  
 - **Framer Motion** – Animation library for React  
+- **Lucide React** – Beautiful and minimal icons  
+- **Vercel** – Easy deployment platform  
 - **TypeScript (optional)** – For scalable, type-safe development  
 
 ---
