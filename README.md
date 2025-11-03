@@ -1,6 +1,6 @@
 # 🎨 My Portfolio – UX/UI Showcase
 
-A modern and elegant **UX/UI portfolio website** built with **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
+A modern, clean, and interactive **UX/UI portfolio website** built using **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
 Showcase your **designs, projects, and creative journey** with smooth animations, responsive layouts, and a developer-friendly setup.
 
 > 🚀 Live Demo coming soon...
@@ -46,18 +46,18 @@ Use it to:
 
 ## 🛠️ Tech Stack
 
-- **Next.js 14** – React framework for server-side rendering & performance  
-- **Tailwind CSS** – Utility-first styling framework  
-- **Framer Motion** – Animation library for React  
-- **Lucide React** – Beautiful and minimal icons  
-- **Vercel** – Easy deployment platform  
+- **Framework:** [Next.js](https://nextjs.org/)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)  
+- **Icons:** [Lucide React](https://lucide.dev/)  
+- **Deployment:** [Vercel](https://vercel.com/) *(recommended)*  
 - **TypeScript (optional)** – For scalable, type-safe development  
 
 ---
 
 ## ⚙️ Installation
 
-Clone this repository and install dependencies:
+Follow these steps to set up the project locally:
 
 ```bash
 git clone https://github.com/Israel-199/UI-UX-portifolio.git
