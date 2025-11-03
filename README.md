@@ -60,3 +60,4 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/Israel-199/UI-UX-portifolio.git
    cd UI-UX-portifolio
+   npm install
